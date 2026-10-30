@@ -1,0 +1,4 @@
+interface:
+  display_name: "Team Standalone"
+  short_description: "OMX 설치 없이 tmux에서 일을 나눠 맡기고 결과를 검증합니다"
+  default_prompt: "$team-standalone 합의된 작업을 독립적으로 나눠 tmux의 Codex 팀원들에게 맡기고, 결과를 통합해서 검증해줘."
