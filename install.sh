@@ -34,6 +34,7 @@ install_files=(
   AGENTS.md
   HANDOFF.md
   REPOS.md
+  webset.md
   docs/STATE.md
   docs/INTERVIEW.md
   docs/AGREEMENT.md
