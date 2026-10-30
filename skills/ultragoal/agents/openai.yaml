@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ultragoal"
+  short_description: "합의한 목표를 한 작업씩 실행·검증하고 보고 후 기다립니다"
+  default_prompt: "$ultragoal 합의된 계획을 한 작업씩 실행·검증하고, 매번 보고한 뒤 내가 계속하라고 할 때까지 멈춰줘."

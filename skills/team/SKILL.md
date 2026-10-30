@@ -1,9 +1,9 @@
 ---
-name: team-standalone
+name: team
 description: Coordinate requested parallel work through tmux and the existing Codex CLI, with fixed task ownership, saved results, and leader verification. Use for a team of separate terminal workers; no OMX setup is required.
 ---
 
-# Team Standalone
+# Team
 
 oh-my-codex 0.21.14의 Team·Worker 절차를 바탕으로 만든 tmux용 개인 스킬이다. [MIT 라이선스](LICENSE)와 [원본 대비 차이·실행 방법](references/operations.md)을 참고한다.
 

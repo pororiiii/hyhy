@@ -5,12 +5,12 @@ argument-hint: "[--quick|--standard|--deep] <idea or vague description>"
 ---
 
 <!--
-Standalone port of the oh-my-codex `deep-interview` skill (MIT License, Copyright (c) 2026 Yeachan-Heo,
+Adapted from the oh-my-codex `deep-interview` skill (MIT License, Copyright (c) 2026 Yeachan-Heo,
 https://github.com/Yeachan-Heo/oh-my-codex). The interview method, scoring, gates and spec format are kept
 as close to the original as possible. Only the parts that require the oh-my-codex runtime were replaced:
 `omx question` -> one plain chat question per round, `omx state` / `.omx/` -> files under `.deep-interview/runs/{interview_id}/`,
 and `$ralplan/$autopilot/$team/$ultragoal/$autoresearch` handoffs -> a user-chosen next step.
-Following OMX 0.21.14's session-scoped state principle, each standalone interview has its own run directory.
+Following OMX 0.21.14's session-scoped state principle, each interview has its own run directory.
 Context, transcript and spec also stay in that directory. This file-based protocol does not reproduce OMX's runtime ownership checks or write locks.
 It sets no model and installs nothing. See LICENSE-oh-my-codex in this folder.
 -->

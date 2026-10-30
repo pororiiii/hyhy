@@ -1,9 +1,9 @@
 ---
-name: plan-standalone
+name: plan
 description: "Create concise, actionable implementation plans with optional requirements interviews or plan review. Use when the user wants a plan before implementation or an evaluation of an existing plan."
 ---
 
-# Plan (standalone)
+# Plan
 
 Adapted from the MIT-licensed oh-my-codex `plan` skill. See [LICENSE](LICENSE).
 This skill uses the host's file, conversation, and optional subagent tools; it does not require an OMX runtime or other installed skills.

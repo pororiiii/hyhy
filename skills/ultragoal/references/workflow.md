@@ -5,7 +5,7 @@
 - 필수: 프로젝트 파일을 읽고 수정하는 AI 환경, 해당 과제의 검증을 실행할 수 있는 도구·권한. 이 스킬 자체는 Python·tmux·OMX 설치를 요구하지 않는다.
 - 선택: Codex의 `get_goal`, `create_goal`, `update_goal` 도구. 실제 세션에 제공되어야 사용할 수 있다. `/goal`이 메뉴에 있다는 이유만으로 세 도구를 호출할 수 있다고 추정하지 않는다.
 - 원본의 최종 검토 유지: 구현자와 독립된 검토. 보조 에이전트가 없으면 별도 검토 결과를 받을 때까지 ‘검토 대기’로 남긴다.
-- Team Standalone을 별도로 사용한다면 그 스킬의 tmux·Python·Codex CLI 조건이 추가된다. Ultragoal이 Team을 자동 실행하지 않는다.
+- Team을 별도로 사용한다면 그 스킬의 tmux·Python·Codex CLI 조건이 추가된다. Ultragoal이 Team을 자동 실행하지 않는다.
 
 ## 실행마다 남기는 세 기록
 

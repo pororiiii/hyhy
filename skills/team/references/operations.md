@@ -15,7 +15,7 @@
 아래 세 변수는 실제 절대 경로로 바꾼다. 스킬을 개인 폴더에 등록했다면 `team_helper`도 그 위치를 가리켜야 한다.
 
 ```bash
-team_helper="/과제/skills/team-standalone/scripts/team.py"
+team_helper="/과제/skills/team/scripts/team.py"
 task_root="/실제/과제/폴더"
 plan_file="/실제/과제/폴더/team-plan.json"
 

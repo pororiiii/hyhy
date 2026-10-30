@@ -42,33 +42,33 @@ install_files=(
   skills/handoff/SKILL.md
   skills/deep-interview/SKILL.md
   skills/deep-interview/LICENSE-oh-my-codex
-  skills/plan-standalone/SKILL.md
-  skills/plan-standalone/LICENSE
-  skills/plan-standalone/agents/openai.yaml
-  skills/team-standalone/SKILL.md
-  skills/team-standalone/LICENSE
-  skills/team-standalone/agents/openai.yaml
-  skills/team-standalone/references/operations.md
-  skills/team-standalone/scripts/team.py
-  skills/ultragoal-standalone/SKILL.md
-  skills/ultragoal-standalone/LICENSE
-  skills/ultragoal-standalone/agents/openai.yaml
-  skills/ultragoal-standalone/references/workflow.md
+  skills/plan/SKILL.md
+  skills/plan/LICENSE
+  skills/plan/agents/openai.yaml
+  skills/team/SKILL.md
+  skills/team/LICENSE
+  skills/team/agents/openai.yaml
+  skills/team/references/operations.md
+  skills/team/scripts/team.py
+  skills/ultragoal/SKILL.md
+  skills/ultragoal/LICENSE
+  skills/ultragoal/agents/openai.yaml
+  skills/ultragoal/references/workflow.md
 )
 install_dirs=(
   docs
   skills
   skills/handoff
   skills/deep-interview
-  skills/plan-standalone
-  skills/plan-standalone/agents
-  skills/team-standalone
-  skills/team-standalone/agents
-  skills/team-standalone/references
-  skills/team-standalone/scripts
-  skills/ultragoal-standalone
-  skills/ultragoal-standalone/agents
-  skills/ultragoal-standalone/references
+  skills/plan
+  skills/plan/agents
+  skills/team
+  skills/team/agents
+  skills/team/references
+  skills/team/scripts
+  skills/ultragoal
+  skills/ultragoal/agents
+  skills/ultragoal/references
 )
 
 # 복사하기 전에 모든 원본과 대상 경로를 확인합니다.
@@ -164,6 +164,6 @@ done
 printf '%s\n' \
   '선택한 문서 양식을 배치했습니다. 실제 과제의 합의·구현 내용은 작업하면서 기록합니다.' \
   'Handoff 스킬 원문은 skills/handoff/SKILL.md에 배치했습니다. AGENTS 안내에 따라 인계 요청 때 참조합니다. AI 도구의 스킬 호출 목록에 등록하는 작업은 별도입니다.' \
-  'Deep Interview와 Plan 독립형 스킬 지침·라이선스·메타데이터도 배치했습니다: skills/deep-interview, skills/plan-standalone. AI 도구의 스킬 호출 목록에 등록하는 작업은 별도입니다.' \
-  'Team Standalone 스킬과 실행 파일을 skills/team-standalone에 배치했습니다. Python·tmux·Codex CLI가 필요하며 OMX 설치나 Codex 설정 변경은 하지 않았습니다. 실제 팀 실행·스킬 메뉴 등록은 별도입니다.' \
-  'Ultragoal Standalone을 skills/ultragoal-standalone에 배치했습니다. tmux·OMX 설치는 필요 없고, Codex Goal 연결은 해당 도구가 제공될 때 선택적으로 사용합니다. 스킬 메뉴 등록은 별도입니다.'
+  'Deep Interview와 Plan 독립형 스킬 지침·라이선스·메타데이터도 배치했습니다: skills/deep-interview, skills/plan. AI 도구의 스킬 호출 목록에 등록하는 작업은 별도입니다.' \
+  'Team 스킬과 실행 파일을 skills/team에 배치했습니다. Python·tmux·Codex CLI가 필요하며 OMX 설치나 Codex 설정 변경은 하지 않았습니다. 실제 팀 실행·스킬 메뉴 등록은 별도입니다.' \
+  'Ultragoal 스킬을 skills/ultragoal에 배치했습니다. tmux·OMX 설치는 필요 없고, Codex Goal 연결은 해당 도구가 제공될 때 선택적으로 사용합니다. 스킬 메뉴 등록은 별도입니다.'

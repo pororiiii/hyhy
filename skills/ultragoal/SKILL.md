@@ -1,9 +1,9 @@
 ---
-name: ultragoal-standalone
+name: ultragoal
 description: Execute an agreed multi-step objective one work item at a time, reporting verified results and waiting for the user before continuing. Preserve durable goal records and final independent review without OMX; supports optional Codex native goal tools.
 ---
 
-# Ultragoal Standalone
+# Ultragoal
 
 합의한 큰 목표를 작은 작업으로 나누고, **작업 하나 실행 → 검증 → 기록·보고 → 사용자 지시 대기**를 반복한다. 사용자가 계속하라고 하면 다음 작업 하나를 진행한다. oh-my-codex 0.21.14의 Ultragoal을 바탕으로 했다. [기록 형식·Goal 연결·원본과의 차이](references/workflow.md), [MIT 라이선스](LICENSE)를 참고한다.
 
